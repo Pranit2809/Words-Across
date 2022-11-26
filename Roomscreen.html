@@ -1,0 +1,52 @@
+<html>
+    <head>
+        <script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-firestore.js"></script>
+<script src="https://www.gstatic.com/firebasejs/live/3.1/firebase.js"></script>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <button id="logout" onclick="logout()" style="width: 50px; height: 40px;" class="glyphicon glyphicon-log-out btn btn-danger"></button> 
+        <br>
+        <br>
+        <br>
+        <br>
+        <div id="DIV" style="text-align:center">
+            <center>
+                <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@500&display=swap" rel="stylesheet">
+                <style>
+                    #user_name{
+                      font-family: "Comfortaa", sans-serif;
+                    }
+                    </style>
+                    <h1 id="user_name" class="color_white"></h1>
+                    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@500&display=swap" rel="stylesheet">
+        <br>
+        <br>
+        <br>
+        <input id="add_room_name" type="text" class="form-control" style="width: 600px; height: 50px; border-radius: 300px;" >
+        <br>
+        <br>
+        <button id="addroom" style="width:300px; height: 40px; border-radius:100px; background-color: rgb(255, 255, 255);" onclick="addroom()">Add Room</button>
+    </center>
+    <style>
+        #addroom{
+            font-family: "Comfortaa";
+        }
+    </style>
+        </div>
+        <center>
+            <br>
+            <br>
+        <div id="output">
+
+
+
+        </div>
+    </center>
+        <script src="main.js"></script> 
+    </body>
+</html>
